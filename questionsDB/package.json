@@ -1,0 +1,24 @@
+{
+  "name": "questionsdb",
+  "version": "1.0.0",
+  "description": "The Backend for the insertion of all the questions in the PostgreSQL Database.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarguddu609/geekskill.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Backend",
+    "PostgreSQL"
+  ],
+  "author": "Guddu Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumarguddu609/geekskill/issues"
+  },
+  "homepage": "https://github.com/kumarguddu609/geekskill#readme"
+}

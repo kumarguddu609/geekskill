@@ -1,9 +1,11 @@
 const { Pool } = require("pg");
-import "dotenv/config";
+require("dotenv").config();
+
+console.log("DB_USER:", process.env.DB_USER);
 
 // PostgreSQL connection pool
 const pool = new Pool({
-  user: process.env.USERNAME,
+  user: process.env.DB_USER,
   host: process.env.HOST,
   database: process.env.DB_NAME,
   password: process.env.DB_PASSWORD,

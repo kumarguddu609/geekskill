@@ -20,6 +20,8 @@ pool
   )
   .catch((err) => console.error("Error creating table:", err));
 
+console.log("Table created successfully");
+
 module.exports = {
   createQuestion: async (questionData) => {
     const {
